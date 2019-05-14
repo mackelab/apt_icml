@@ -1,21 +1,15 @@
-# APT
+This repository contains code for the submission
+> Automatic Posterior Transformation for Likelihood-free Inference, ICML 2019.
 
-Code for the submission
-> Automatic Posterior Transformation for Likelihood-free Inference, submitted to ICML 2019.
+## APT is now part of DELFI
+This repository contains a 'frozen' version of APT as used for the 2019 ICML submission. It will not be updated with new features, bugfixes, or documentation improvements.
 
-See jupyter notebooks in experiments/ for demos that recreate the central experiments of the paper. 
+Updates to the code and documentation, will continue at the publicly available [delfi](https://github.com/mackelab/delfi) package. Jupyter notebooks are included for demonstration purposes, including those reproducing the experiments in the paper.
 
-# Installation instruction 
+## Installation instructions
 
 ```
 git clone https://github.com/aptalg/apt_icml.git
-cd code/apt
-python setup.py install --user
-cd code/snl_py3
+cd aptalg
 python setup.py install --user
 ```
-
-# Remark
-The package in code/apt builds on the publicly availablle [delfi](https://github.com/mackelab/delfi) package. 
-The included package code/snl_py3 is a Python3 port of the publicly available [snl](https://github.com/gpapamak/snl) repository (originally written for Python 2).
-
